@@ -9,7 +9,7 @@ export class ButtonPage implements OnInit {
 
 
 
-  favorito: boolean=false;
+  favorito: boolean = false;
 
   constructor() { }
 
@@ -17,7 +17,7 @@ export class ButtonPage implements OnInit {
   }
 
   onClick(){
-    this.favorito= !this.favorito;
+    this.favorito= !this.favorito
 
   }
 
