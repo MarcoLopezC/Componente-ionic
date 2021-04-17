@@ -15,7 +15,7 @@ interface Componente {
   styleUrls: ['./inicio.page.scss'],
 })
 export class InicioPage implements OnInit {
-  
+
   componentes: Componente[] =[
     {
      icon: 'football-outline',
@@ -27,19 +27,26 @@ export class InicioPage implements OnInit {
       icon: 'alert-circle-outline',
       name: 'Alert',
       redirecto:'/alert'
- 
-      
+
+
      },
      {
       icon: 'beaker-outline',
       name: 'Avatar',
       redirecto:'/avatar'
- 
-      
+
+
+     },
+     {
+      icon: 'radio-button-off-outline',
+      name: 'Buttons',
+      redirecto:'/button'
+
+
      }
   ];
 
-     
+
   constructor() { }
 
   ngOnInit() {
